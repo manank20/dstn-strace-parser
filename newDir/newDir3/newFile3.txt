@@ -1,0 +1,1 @@
+newDir/newDir3/newFile3.txt  new text

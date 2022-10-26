@@ -29,7 +29,6 @@ fn out_gen(vtr: &Vec<&str>, otp: &mut String, argm: &Vec<&str>, scalls: &[&str])
         Some(j) => {
             if argm[1] == "/usr/bin/ln" {
                 println!("Created hardlink from {} to {}", argm[5], argm[7]);
-                return;
             }
             if argm[1] == "/usr/bin/mkdir" {
                 println!("Created directory {}", argm[7]);

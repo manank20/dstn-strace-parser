@@ -1,1 +1,0 @@
-syscall = {ASCII_DIGIT+ ~ " " ~ ASCII_ALPHA_LOWER+}
